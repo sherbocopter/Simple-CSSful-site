@@ -1,0 +1,72 @@
+.myArticle, .myGallery{
+	width: 100%;
+	height:auto;
+	overflow: auto;
+	margin: 5px auto;
+	/*background-color: #FFF3C4;*/
+	border-color: #000000;
+}
+
+.myArticle img {
+	display: block-inline;
+	float: left;
+	width: 20%;
+	margin: 10px;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myTitle {
+	color: #A6913D;
+	text-shadow: -1px -1px black, -1px 1px black, 1px 1px black, 1px -1px black;
+}
+
+.myArticle p {
+	color: #4D4D4D;
+}
+
+.myGallery {
+	overflow:auto;
+}
+
+.column {
+	float: left;
+	min-width: 180px;
+	width: 33.3%;
+	overflow: auto;
+}
+
+.column .myImg {
+	float: left;
+	width: 90%;
+	margin: 4px auto;
+	height: auto;
+}
+
+.myImg img {
+	width: 100%;
+	height: auto;
+	border: 2px solid transparent;
+}
+
+.myImg img:hover {
+	border: 2px solid #DBC87B;
+}
+
+.description {
+	position: absolute;
+	display: none;
+	margin:auto;
+	background-color: #333;
+	min-width: 50px;
+	max-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	transform: translate(0px, -50px);
+	color: white;
+	padding: 2px;
+}
+
+.myImg:hover .description {
+	display: inline-block;
+	height: auto;
+}

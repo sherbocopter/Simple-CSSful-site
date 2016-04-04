@@ -1,0 +1,26 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+	font-family: "Trebuchet MS";
+}
+
+.toTopButton {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	background-color: #DBC87B;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+div.pageContentWrapper {
+	width:100%;
+	max-width: 800px;
+	height: auto;
+	margin: auto;
+	/*background-color: #cccccc;*/
+	/*background-color: #FFF3C4;*/
+}

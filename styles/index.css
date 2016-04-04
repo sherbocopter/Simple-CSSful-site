@@ -1,0 +1,32 @@
+div.menuWrapper {
+	background-color: gray;
+	width: 60%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+div.menuItem {
+	background-color: purple;
+	float: left;
+	margin:2%;
+	height: 96%;
+	width: 29%;
+	text-align: center;
+}
+
+div.menuItem img {
+	width: 100%;
+	height: :auto:;
+}
+
+a.link {
+	display: inline-block;
+	font-size: 200%;
+	text-decoration: none;
+	color: black;
+}
+
+a.link:hover {
+	color: red;
+	transform: scale(1.1);
+}

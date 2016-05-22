@@ -1,0 +1,77 @@
+<!DOCTYPE html> <html lang="ro"> 
+<head>
+	<title>Proiect tehnici web - History</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/base.css">
+	<link rel="stylesheet" type="text/css" href="styles/banner.css">
+	<link rel="stylesheet" type="text/css" href="styles/menubar.css">
+	<link rel="stylesheet" type="text/css" href="styles/articles.css">
+</head> 
+<body> 
+	
+	<a id="top"></a>
+	
+	<header>
+		<img src="images/banner.jpg" alt="ErrorIMG">
+	</header>
+	
+	<div class="menuWrapper">
+		<div class="menuBar">
+			<ul class="menu">
+				<li class="menuItem">
+					<a href="history.html">History</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropButton" href="guitars.html">
+						Guitars
+					</a>
+					<div class="dropdownContent">
+						<a href="#ch_telecaster">Telecaster</a>
+						<a href="#ch_stratocaster">Stratocaster</a>
+						<a href="#ch_guitar-acc">Accessories</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropButton" href="basses.html">Basses</a>
+					<div class="dropdownContent">
+						<a href="basses.html#ch_precision">Precision</a>
+						<a href="basses.html#ch_jazz">Jazz Bass</a>
+						<a href="basses.html#ch_bass-acc">Accessories</a>
+					</div>
+				</li>
+				<li class="menuItem">
+					<a href="faq.html">FAQ</a>
+				</li>
+				<li class="menuItem">
+					<a class="activePage" href="forum.html">Forum</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="pageContentWrapper">
+	
+		<h1>Send message</h1>
+		<form name="sendMessageForm" id="sendMessageFormId" onsubmit="sendMessage()">
+			Nickname: <input type="text" name="fNickname"> </br>
+			Message: </br>
+			<input type="textarea" name="fMessage" class="forumWriteMessage">
+			<input type="submit" value="Send">
+		</form>
+		
+		<div id="forum"></div>
+		
+	</div>
+	
+	<a class="toTopButton" href="#top">Back to top</a>
+	<div class="theTime" id="theTimeId">aista-i ceasu</div>
+	
+	<script src="https://code.jquery.com/jquery-2.2.3.js"></script>	
+	<script src="scripts/theTime.js"></script>
+	<script src="scripts/forum.js"></script>
+</body>
+ </html>
+ 
+ 
+ 
+ 

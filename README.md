@@ -1,5 +1,6 @@
-# Simple-CSSful-site
-A simple CSS project for the web development course.
+# Simple-useless-site
+
+A simple CSS and js project for the web development course.
 
 Issues:
 --------------
